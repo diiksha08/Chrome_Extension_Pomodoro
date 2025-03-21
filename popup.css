@@ -1,0 +1,176 @@
+/* styles.css */
+
+body {
+    background-color: #f2f2f2;
+    /* Background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    /* Adjust border-radius for rounder corners */
+}
+
+#timer {
+    font-size: 4em;
+    margin-top: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+#buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+#timerSettings {
+    margin-top: 20px;
+}
+
+#timerInput {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 80px;
+    margin-right: 5px;
+    /* Add a margin between input and button */
+}
+
+#setTimerButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+    /* Add a margin between input and button */
+}
+
+#setTimerButton:hover {
+    background-color: #45a049;
+}
+
+#setTimerButton:active {
+    background-color: #3e8e41;
+}
+
+#taskSection {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#taskList {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.taskItem span {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.deleteTaskButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.deleteTaskButton:hover {
+    background-color: #d32f2f;
+}
+
+.deleteTaskButton:active {
+    background-color: #b71c1c;
+}
+
+#taskInputContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    /* Ensure it takes full width */
+    max-width: 400px;
+    /* Adjust max-width to fit within the visible area */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+#taskInput {
+    flex: 1;
+    /* Allow it to grow to fill available space */
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 100%;
+    /* Fill the available width */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+
+#addTaskButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+#addTaskButton:hover {
+    background-color: #45a049;
+}
+
+#addTaskButton:active {
+    background-color: #3e8e41;
+}

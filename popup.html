@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div id="appContainer">
+        <div id="timerContainer">
+            <div id="timer">25:00</div>
+        </div>
+
+        <div id="buttonContainer">
+            <button id="startButton">Start</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <div id="timerSettings">
+            <div id="timerInputGroup">
+                <input type="text" id="timerInput" placeholder="Set time (mins)">
+                <button id="setTimerButton">Set Timer</button>
+            </div>
+        </div>
+
+        <div id="taskSection">
+            <div id="taskList"></div>
+            <div id="taskInputContainer">
+                <input type="text" id="taskInput" placeholder="Enter task...">
+                <button id="addTaskButton">Add Task</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
